@@ -1,0 +1,37 @@
+
+.modal {
+    width: 50%; 
+    margin: 0 auto;
+ 
+ }
+ 
+ .box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .modal-dialog {
+     width: 50%;
+     border: 5px solid black;
+     position: fixed;
+     background-color: white;
+      
+ }
+ .modal-header {
+     background-color: grey;
+     padding: 10px;
+     color: white;
+     font-size: 24px;
+ }    
+ 
+ .modal-content {
+     padding: 10px;
+      
+ 
+ }
+ 
+ .modal-buttons {
+     text-align: right;
+     padding: 5px;
+ }

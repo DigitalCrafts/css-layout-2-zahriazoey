@@ -1,0 +1,49 @@
+* {
+      box-sizing: border-box;
+   
+}
+
+.chessboard {
+  height: 100vw;
+
+}
+
+.row {
+   display: flex;
+   height: 10%;
+
+}
+
+.row:nth-child(even) {
+   flex-direction: row-reverse;
+}
+
+
+.square {
+   height: 20px;
+   width: 10%;
+   background-color: gray;
+   height: 100%;
+   font-size: 5vw;
+   text-align: center;
+   line-height: 10vw;
+  
+
+  
+}
+
+
+.square:nth-child(even) {
+   background-color: grey;
+}
+
+.square:nth-child(odd) {
+   background-color: #aaa;
+}
+
+.square.white{
+   background-color: white;
+   font-size: 24px;
+}
+
+
